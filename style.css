@@ -72,3 +72,53 @@ button{
 button:hover{
     background-color: rgb(2, 91, 255);
 }
+
+@media (max-width: 1000px){
+    div.fundo{
+        width: 90%;
+        height: 90%;
+    }
+
+    div.icon{
+        width:250px;
+        height:250px;
+    }
+    
+    p.nome{
+        font-size: 1.1rem;
+    }
+
+    p.sobre_mim{
+        font-size: 0.45rem;
+    }
+
+    button{
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    div.fundo{
+        width: 90%;
+        height: 90%;
+    }
+
+    div.icon{
+        width:400px;
+        height:400px;
+    }
+    
+    p.nome{
+        font-size: 1.3rem;
+    }
+
+    p.sobre_mim{
+        font-size: 0.6rem;
+    }
+
+    button{
+        width: 200px;
+        height: 70px;
+    }
+}
