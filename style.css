@@ -73,7 +73,7 @@ button:hover{
     background-color: rgb(2, 91, 255);
 }
 
-@media (max-width: 1000px){
+@media(max-width:1000px){
     div.fundo{
         width: 90%;
         height: 90%;
@@ -93,32 +93,27 @@ button:hover{
     }
 
     button{
-        width: 150px;
-        height: 40px;
+        width: 160px;
+        height: 50px;
     }
 }
 
-@media (max-width: 500px){
-    div.fundo{
-        width: 90%;
-        height: 90%;
-    }
-
+@media(max-width:713px){
     div.icon{
-        width:400px;
-        height:400px;
+        width:200px;
+        height:200px;
     }
     
     p.nome{
-        font-size: 1.3rem;
+        font-size: 0.8rem;
     }
 
     p.sobre_mim{
-        font-size: 0.6rem;
+        font-size: 0.36rem;
     }
 
     button{
-        width: 200px;
-        height: 70px;
+        width: 110px;
+        height: 40px;
     }
 }
